@@ -6,7 +6,7 @@ import store from '../store';
 const Asteroid = createClass();
 // Connect to a Meteor backend
 const asteroid = new Asteroid({
-  endpoint: 'ws://localhost:9000/websocket',
+  endpoint: 'ws://philip-tran.herokuapp.com/websocket',
 });
 
 // if you want realitme updates in all connected clients
